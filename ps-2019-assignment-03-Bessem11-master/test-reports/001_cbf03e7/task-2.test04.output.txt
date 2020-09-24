@@ -1,0 +1,4 @@
+'secret.code' -> 'secret.code.ignored'
+>> 12 34
+>> 1234
+'secret.code.ignored' -> 'secret.code'

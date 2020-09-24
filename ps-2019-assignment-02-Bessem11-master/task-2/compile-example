@@ -1,0 +1,5 @@
+# For Mac/Linux
+javac -cp lib/client.jar:lib/guava-21.0.jar *.java
+
+# For Windows
+javac -cp lib/client.jar;lib/guava-21.0.jar *.java

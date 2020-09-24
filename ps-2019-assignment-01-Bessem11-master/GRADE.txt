@@ -1,0 +1,35 @@
+OVERALL SCORE:
+	72 / 100 (21 + 17 + 14 + 20)
+
+Bonus points for tests: no
+
+closed-map-java: 21/25
+   - 1 STYLE VIOLATION		8/10
+   - ALL TESTS PASS 		10/10
+   - GENERAL ORGANIZATION	3/5 * Problem with the things organization: missing input reader thing. Problem with handling input validation.
+
+letter-box-java: 17/25
+   - STYLE VIOLATIONS           10/10
+   - TEST CASES                 05/10	* Your solution did not originally compiled, since had a weird package declaration. I had to fix it manually. After fixing the problem with the import all the tests passed
+   - GENERAL ORGANIZATION       02/05	* All the things are defined insider the same java file, while you should have distributed them in multiple files. The structure of the code can be streamlined since the interfaces of your things are weird.
+
+closed-map-javascript: 14/25
+   - STYLE VIOLATIONS           06/10	* Your solution does not distribute the logic of the program in suitable things but leave most of it in the "main". Your things are accessed as from within other things without passing them as arguments (e.g., "var Compute"). You abuse the fact that in javascript foo["bar"] and foo.bar are equivalent, and always use foo.bar. This does not closely follows the style
+
+   - TEST CASES                 05/10	* Your solution cannot handle secret code with more digits than expected (see [1])
+   - GENERAL ORGANIZATION       03/5	* Monolithic solution
+
+letter-box-javascript: 20/25
+   - STYLE VIOLATIONS           10/10
+   - TEST CASES                 05/10	* Your solution cannot handle secret code with more digits than expected (like above, see [1])
+   - GENERAL ORGANIZATION       05/05	* Nice use of prototype to define the dispatch method
+
+
+
+[1]
+DIGITS=4, secret.code=123456, --> secret = 3456.
+You solution instead shows:
+---------------------------------[START]
+>> Wrong - Game over!
+>> The secret code was: 34
+---------------------------------[END]

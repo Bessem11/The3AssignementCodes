@@ -1,0 +1,7 @@
+renamed 'secret.code' -> 'secret.code.ignored'
+>>  0000
+>>   1000
+>>    8765
+>>     3214
+>> 1234
+renamed 'secret.code.ignored' -> 'secret.code'

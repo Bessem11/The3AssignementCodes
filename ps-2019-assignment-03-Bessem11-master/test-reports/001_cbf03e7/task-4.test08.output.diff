@@ -1,0 +1,14 @@
+1,8c1,4
+< >> Guess the 4-digit secret code (10):
+< 123
+< 
+< >> Yikes! Invalid input
+< >> Guess the 4-digit secret code (10):
+< 1234
+< 
+< >> Correct - You won!
+---
+> renamed 'secret.code' -> 'secret.code.ignored'
+> >> 123
+> >> 1234
+> renamed 'secret.code.ignored' -> 'secret.code'

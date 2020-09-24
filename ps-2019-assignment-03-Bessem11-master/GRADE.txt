@@ -1,0 +1,28 @@
+OVERALL SCORE:
+	73 / 100 (23 + 10 + 17 + 23)
+
+BONUS POINTS:			0/0
+
+Task 1:	23/25 (JS)
+   - KICK-FORWARD STYLE		20/20	* No violations
+   - GENERAL ORGANIZATION	3/5	* 
+	- 2 Points for accumulating and propagating all the results.
+
+Task 2: 10/25 (JS)
+   - QUARANTINE STYLE		5/20	* Violations
+	- 10 Points the monad prints the results while an impure function should do it
+	- 5 Points some pure functions are treated as impure
+
+   - GENERAL ORGANIZATION	5/5	* 
+
+Task 3: 17/25 (Java)
+   - THE ONE STYLE		15/20	* Violations
+	- 5 Points violation of the abstraction: you should not include inside the monad anything more than necessary
+   - GENERAL ORGANIZATION	2/5	* 
+	- 3 Points unnecessary use of reflection 
+
+Task 4: 23/25 (Java)
+   - DATA SPACES STYLE		20/20	* No Violations
+   - GENERAL ORGANIZATION	3/5	* 
+	- 3 Sub-optimal decision to have a single class, master mild, and start multiple threads using it, instead of defining Runnable instead?
+

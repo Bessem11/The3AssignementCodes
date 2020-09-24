@@ -1,0 +1,6 @@
+# Mac or Linux
+java -cp .:lib/client.jar:lib/guava-21.0.jar EventBusExample 
+
+# Windows
+java -cp .:lib/client.jar;lib/guava-21.0.jar EventBusExample 
+

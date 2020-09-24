@@ -1,0 +1,16 @@
+OVERALL SCORE:
+	 76 / 100 (35 + 41)
+
+Task 1:	35/50
+   - HOLLYWOOD STYLE		15/20	* Violation of the style
+	- 5 Points, you break the encapsulation by accessing global variables and invoked direct method calls onto them
+   - ASPECTS STYLE		10/20	* Violations of the style
+	- 10 Point, you designed your solution around the aspects, while this should never happen
+   - GENERAL ORGANIZATION	10/10	* All test passed.
+
+Task 2:	41 /50
+   - PUB/SUB STYLE		20/20	* No violations of the style
+   - PLUGINS STYLE		15/20	* Notes
+	- 5 Points, violation of the style: you create many bulletin boards while there should be only one of such board over which all the components communicate 
+   - GENERAL ORGANIZATION	06/10	* All test passed.
+	- 4 Points. Sub-optimal design decisions, unnecessary use of static variables and instances, and poor encapsulation of the problem.

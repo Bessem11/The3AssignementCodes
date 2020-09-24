@@ -1,0 +1,23 @@
+META: Report generated on Sat Jan 4 01:00:01 CET 2020
+Task 1 
+  test01 PASSED (Private)
+  test02 PASSED (Private)
+  test01 PASSED (Public)
+  test02 PASSED (Public)
+  test03 PASSED (Public)
+  test04 PASSED (Public)
+  test05 PASSED (Public)
+  test06 PASSED (Public)
+  test07 PASSED (Public)
+  test03 PASSED (Public)
+  test09 PASSED (Public)
+  test10 PASSED (Public)
+  test11 PASSED (Public)
+  test12 PASSED (Public)
+Task 2 
+  test01 FAILED (Private)
+    Output is different
+    Secret code has wrong number of digits
+  test01 FAILED (Public)
+    Output is different
+    Secret code has wrong number of digits
